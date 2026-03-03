@@ -1,0 +1,23 @@
+print("Taane is the best")
+input("Press Enter to continue...")
+hello = "Hello, World!"
+print(hello)
+name = input("What is your name? ")
+print("Hello, " + name + "!")
+age = input("How old are you? ")
+print("You are " + age + " years old.")
+favorite_color = input("What is your favorite color? ")
+print("Your favorite color is " + favorite_color + ".")
+number1 = input("Enter a number: ")
+number2 = input("Enter another number: ")
+sum = float(number1) + float(number2)
+print("The sum of " + number1 + " and " + number2 + " is " + str(sum) + ".")
+difference = float(number1) - float(number2)
+print("The difference between " + number1 + " and " + number2 + " is " + str(difference) + ".")
+product = float(number1) * float(number2)
+print("The product of " + number1 + " and " + number2 + " is " + str(product) + ".")
+if float(number2) != 0:
+    quotient = float(number1) / float(number2)
+    print("The quotient of " + number1 + " and " + number2 + " is " + str(quotient) + ".")
+else:
+    print("Cannot divide by zero.")
